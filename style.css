@@ -1,0 +1,16 @@
+body{
+    font-family: Poppins;
+}
+.navbar{
+    display: flex ;
+    justify-content: space-between;
+    
+}
+.menuitems ul li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.menuimg{
+    padding-left: 30px;
+}

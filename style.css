@@ -28,10 +28,13 @@ body{
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
     color: white;  
+    margin-bottom: 3px;
 }
 /* Landing Slider starts Here */
 .slider{
     display: flex;
+    background-color: #fafafa;
+
     
 }
 .slidertxt{
@@ -55,3 +58,22 @@ body{
     background-position-x: left;
     width: 50%;
 }
+/* Why us icons */
+.whyusmain{
+    background-color: #f4f5f7;
+    padding-bottom: 100px;
+}
+.whyusmain h1,p{
+    margin-left: 10%;
+}
+.whyusicons{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Why Us Region */
+h6{
+    text-align: center;
+}
+

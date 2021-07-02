@@ -3,14 +3,55 @@ body{
 }
 .navbar{
     display: flex ;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
 }
 .menuitems ul li{
     list-style: none;
     display: inline-flex;
+    padding-left: 40px;
+    font-weight: 400;
+    
     justify-content: space-between;
 }
 .menuimg{
     padding-left: 30px;
+    width: 30%;
+}
+.menubtn{
+    text-align: center;
+    width: 30%;
+    padding-top: 20px;
+}
+.menubtn button{
+    background-image: linear-gradient(to right, #64d268, #41bbc8);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;  
+}
+/* Landing Slider starts Here */
+.slider{
+    display: flex;
+    
+}
+.slidertxt{
+    width: 50%;
+    padding-left: 150px;
+}
+.slidertxt button{
+    background-image: linear-gradient(to right, #64d268, #41bbc8);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;  
+}
+.slidertxt h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    
+}
+.sliderimg{
+    background-image: url(images/bg-intro-desktop.svg);
+    background-size: cover;
+    background-position-x: left;
+    width: 50%;
 }
